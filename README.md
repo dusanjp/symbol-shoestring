@@ -1,6 +1,6 @@
 https://github.com/symbol/product/tree/dev/tools/shoestring/shoestring/wizard
 
-ここにある
+上記にある symbol-shoestringの`product/tree/dev/tools/shoestring/shoestring/wizard`以下にある
 
 setup_file_generator.py
 
