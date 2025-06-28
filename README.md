@@ -2,6 +2,7 @@ https://github.com/symbol/product/tree/dev/tools/shoestring/shoestring/wizard
 
 ここにある
 setup_file_generator.py
+
 ShoestringOperation.py
 を、入れ替えて使用する。
 
