@@ -13,6 +13,8 @@ ShoestringOperation.py
 
 wizardの setupﾒﾆｭｰで、新規で nodeﾃﾞｨﾚｸﾄﾘが作成され、nodeﾃﾞｨﾚｸﾄﾘの中に node本体が収納される
 
+wizardの その他の ﾒﾆｭｰでも、--directory nodeを指定した動作を行う。
+
 又、metadataの設定が無くても、内容が空'{}'のrest_overrides.jsonが生成される
 
 wizardの upgrade命令で、必ず --rest-overrides shoestring/rest_overrides.jsonが適用される
