@@ -18,3 +18,19 @@ wizardの その他の ﾒﾆｭｰでも、--directory nodeを指定した動�
 又、metadataの設定が無くても、内容が空'{}'のrest_overrides.jsonが生成される
 
 wizardの upgrade命令で、必ず --rest-overrides shoestring/rest_overrides.jsonが適用される
+
+
+
+https://github.com/symbol/product/tree/dev/tools/shoestring/shoestring/wizard
+
+Use the setup_file_generator.py and ShoestringOperation.py under product/tree/dev/tools/shoestring/shoestring/wizard in the symbol-shoestring above.
+
+2025_06_28 Changes:
+
+A new node directory is created in the wizard setup menu, and the node itself is stored in the node directory.
+
+Other wizard menus also perform the operation specified by --directory node.
+
+Even if there is no metadata setting, rest_overrides.json with an empty '{}' content is generated.
+
+The wizard upgrade command always applies --rest-overrides shoestring/rest_overrides.json.
