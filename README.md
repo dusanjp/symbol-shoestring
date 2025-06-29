@@ -15,7 +15,7 @@ wizardの setupﾒﾆｭｰで、新規で nodeﾃﾞｨﾚｸﾄﾘが作成さ
 
 wizardの その他の ﾒﾆｭｰでも、--directory nodeを指定した動作を行う。
 
-又、metadataの設定が無くても、内容が空'{}'のrest_overrides.jsonが生成される
+又、wizard上のsetup実行時に、metadataの設定が無くても、内容が空'{}'のrest_overrides.jsonが生成される
 
 wizardの upgrade命令で、必ず --rest-overrides shoestring/rest_overrides.jsonが適用される
 
@@ -31,6 +31,6 @@ A new node directory is created in the wizard setup menu, and the node itself is
 
 Other wizard menus also perform the operation specified by --directory node.
 
-Even if there is no metadata setting, rest_overrides.json with an empty '{}' content is generated.
+When running setup on the wizard,Even if there is no metadata setting, rest_overrides.json with an empty '{}' content is generated.
 
 The wizard upgrade command always applies --rest-overrides shoestring/rest_overrides.json.
