@@ -63,4 +63,7 @@ def build_shoestring_command(
 	if operation == ShoestringOperation.SETUP:
 		Path(destination_directory, "node").mkdir(parents=True, exist_ok=True)
 
+	if ShoestringOperation.RENEW_CERTIFICATES == operation:
+		shoestring_args.extend(['--retain-node-key'])
+
 	return shoestring_args
