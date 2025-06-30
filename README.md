@@ -19,6 +19,7 @@ ShoestringOperation.py
 4.wizardの upgrade命令で、必ず --rest-overrides shoestring/rest_overrides.jsonが適用される
 
 2025_07_01　変更内容：
+
 5.wizardでの renew-certificatesﾒﾆｭｰで、--retain-node-keyを適用しました。
 
 
