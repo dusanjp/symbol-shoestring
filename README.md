@@ -19,6 +19,8 @@ wizardの その他の ﾒﾆｭｰでも、--directory nodeを指定した動�
 
 wizardの upgrade命令で、必ず --rest-overrides shoestring/rest_overrides.jsonが適用される
 
+wizardでの renew-certificatesﾒﾆｭｰで、--retain-node-keyを適用しました。
+
 
 
 https://github.com/symbol/product/tree/dev/tools/shoestring/shoestring/wizard
@@ -34,3 +36,5 @@ Other wizard menus also perform the operation specified by --directory node.
 When running setup on the wizard,Even if there is no metadata setting, rest_overrides.json with an empty '{}' content is generated.
 
 The wizard upgrade command always applies --rest-overrides shoestring/rest_overrides.json.
+
+In the renew-certificates menu in the wizard, I applied --retain-node-key.
