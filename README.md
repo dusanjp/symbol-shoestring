@@ -18,9 +18,13 @@ ShoestringOperation.py
 
 4.wizardの upgrade命令で、必ず --rest-overrides shoestring/rest_overrides.jsonが適用される
 
+
+
 2025_07_01　変更内容：
 
 5.wizardでの renew-certificatesﾒﾆｭｰで、--retain-node-keyを適用しました。
+
+
 
 
 
@@ -37,6 +41,8 @@ Use the setup_file_generator.py and ShoestringOperation.py under product/tree/de
 3.When running setup on the wizard,Even if there is no metadata setting, rest_overrides.json with an empty '{}' content is generated.
 
 4.The wizard upgrade command always applies --rest-overrides shoestring/rest_overrides.json.
+
+
 
 2025_07_01 Changes:
 
