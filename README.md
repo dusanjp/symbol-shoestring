@@ -39,4 +39,4 @@ Use the setup_file_generator.py and ShoestringOperation.py under product/tree/de
 
 2025_07_01 Changes:
 
-5.In the renew-certificates menu in the wizard, I applied --retain-node-key.
+5.In the renew-certificates menu in the wizard,applied --retain-node-key.
